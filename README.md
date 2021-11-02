@@ -13,6 +13,9 @@ All code has been customized to the input for this particular study, and impleme
 Raw images were first converted from dicom to nifti format, then inspected for artifacts. Analyses of remaining images (available in BIDS format here: insert link) relied predominantly on Mindboggle software (Klein et al., 2017), which was run in a Docker container according to the "Run one command" instructions here: https://mindboggle.info/. 
 
 Following outputs were analyzed:
+
+    .
+    ├── N4biasCorrect.sh                                                    <-- bias correct 
     .
     ├──Volumes generated with ANTS and FreeSurfer using FreeSurfer labels       <-- mindboggle123_output > mindboggled > $sub-n > labels > freesurfer_wmparc_labels_in_hybrid_graywhite.nii.gz
     ├──Surface-based measures       <-- mindboggle123_output > mindboggled > $sub-n > tables > label_shapes.csv
