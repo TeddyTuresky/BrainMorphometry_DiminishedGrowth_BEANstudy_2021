@@ -11,10 +11,15 @@ Raw images were first converted from dicom to nifti format, then inspected for a
 Following outputs (from subdirectories of mindboggle123_output > mindboggled > $sub-n) were analyzed:
 
     .
-    ├── freesurfer_wmparc_labels_in_hybrid_graywhite.nii.gz      <-- Volumes generated with ANTS and FreeSurfer using FreeSurfer labels 
-    ├── label_shapes.csv                                         <-- Surface-based measures      
+    ├── freesurfer_wmparc_labels_in_hybrid_graywhite.nii.gz      <-- volumes generated with ANTS and FreeSurfer using FreeSurfer labels 
+    ├── label_shapes.csv                                         <-- surface-based measures      
 
-As the surface-based measures we analyzed were originally output as 31 (cortical area) x 100 (surface-based measure) spreadsheets, in relatively distant subdirectories, we first consolidated all *.csv files into one directory as $sub-n_label_shapes.csv, then submitted them to the python code consolidateShapes.ipynb to further consolidate measures of interest (area, cortical thickness (mean), travel depth (mean), mean curvature (mean).
+As the surface-based measures we analyzed were originally output as 31 (cortical area) x 100 (surface-based measure) spreadsheets, in relatively distant subdirectories, we first consolidated all *.csv files into one directory containing $sub-n_label_shapes.csv, then submitted them to the following python code:
+
+    .
+    ├── consolidateShapes.ipynb                                  <-- Jupyter Notebook script to consolidates measures of interest 
+                                                                     (area, cortical thickness (mean), travel depth (mean), mean curvature (mean) 
+ 
 
 For statistical analyses, the following code was used:
 
