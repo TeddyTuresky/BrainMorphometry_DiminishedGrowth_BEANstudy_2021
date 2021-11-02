@@ -1,12 +1,8 @@
 # BrainMorphometry_DiminishedGrowth_BEANstudy_2021
-Corresponds to doi.org/10.1016/j.dcn.2021.101029
-
 
 This repository houses code (or links to code) used for the article:
 
-Ted K. Turesky, Talat Shama, Shahria Hafiz Kakon, Rashidul Haque, Nazrul Islam, Amala Someshwar, Borjan Gagoski, William A. Petri, Charles A. Nelson, Nadine Gaab,
-Brain Morphometry and Diminished Physical Growth in Bangladeshi Children Growing up in Extreme Poverty: a Longitudinal Study,
-Developmental Cognitive Neuroscience, 2021,101029: doi.org/10.1016/j.dcn.2021.101029.
+##### *Ted K. Turesky, Talat Shama, Shahria Hafiz Kakon, Rashidul Haque, Nazrul Islam, Amala Someshwar, Borjan Gagoski, William A. Petri, Charles A. Nelson, Nadine Gaab, Brain Morphometry and Diminished Physical Growth in Bangladeshi Children Growing up in Extreme Poverty: a Longitudinal Study, Developmental Cognitive Neuroscience, 2021,101029: doi.org/10.1016/j.dcn.2021.101029*
 
 All code has been customized to the input for this particular study, and implemented on MacOSX, but can be adapted be replacing pertinent paths, filenames, etc.
 
