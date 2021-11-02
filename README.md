@@ -1,10 +1,12 @@
 # BrainMorphometry_DiminishedGrowth_BEANstudy_2021
 
-This repository houses code (or links to code) used for the article:
+This repository houses code (or links to code) used for the following study:
 
 ##### *Ted K. Turesky, Talat Shama, Shahria Hafiz Kakon, Rashidul Haque, Nazrul Islam, Amala Someshwar, Borjan Gagoski, William A. Petri, Charles A. Nelson, Nadine Gaab (2021) Brain Morphometry and Diminished Physical Growth in Bangladeshi Children Growing up in Extreme Poverty: a Longitudinal Study, Developmental Cognitive Neuroscience, 101029: doi.org/10.1016/j.dcn.2021.101029*
 
-All code has been customized to the input for this particular study, and implemented on MacOSX, but can be adapted be replacing pertinent paths, filenames, etc.
+The dataset that underwent the processing/analysis pipeline described below is availabe here: https://openneuro.org/datasets/ds003862.
+
+All code was implemented on MacOSX and customized to the input for this particular study, but can be adapted be replacing pertinent paths, filenames, etc.
 
 Raw images were first converted from dicom to nifti format, then inspected for artifacts. Analyses of remaining images (available in BIDS format here: insert link) relied predominantly on Mindboggle software (Klein et al., 2017), which was run in a Docker container according to the "Run one command" instructions here: https://mindboggle.info/. 
 
