@@ -15,8 +15,6 @@ Raw images were first converted from dicom to nifti format, then inspected for a
 Following outputs were analyzed:
 
     .
-    ├── N4biasCorrect.sh                                                    <-- bias correct 
-    .
     ├──Volumes generated with ANTS and FreeSurfer using FreeSurfer labels       <-- mindboggle123_output > mindboggled > $sub-n > labels > freesurfer_wmparc_labels_in_hybrid_graywhite.nii.gz
     ├──Surface-based measures       <-- mindboggle123_output > mindboggled > $sub-n > tables > label_shapes.csv
 
