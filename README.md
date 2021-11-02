@@ -12,13 +12,29 @@ All code has been customized to the input for this particular study, and impleme
 
 Raw images were first converted from dicom to nifti format, then inspected for artifacts. Analyses of remaining images (available in BIDS format here: insert link) relied predominantly on Mindboggle software (Klein et al., 2017), which was run in a Docker container according to the "Run one command" instructions here: https://mindboggle.info/. 
 
-Following outputs were analyzed:
+Following outputs (from subdirectories of mindboggle123_output > mindboggled > $sub-n) were analyzed:
 
     .
-    ├──Volumes generated with ANTS and FreeSurfer using FreeSurfer labels       <-- mindboggle123_output > mindboggled > $sub-n > labels > freesurfer_wmparc_labels_in_hybrid_graywhite.nii.gz
-    ├──Surface-based measures       <-- mindboggle123_output > mindboggled > $sub-n > tables > label_shapes.csv
+    ├── freesurfer_wmparc_labels_in_hybrid_graywhite.nii.gz      <-- Volumes generated with ANTS and FreeSurfer using FreeSurfer labels 
+    ├── label_shapes.csv                                         <-- Surface-based measures      
 
-As the surface-based measures we analyzed were originally output as 31 (cortical area) x 100 (surface-based measure) spreadsheets, in relatively distant subdirectories, we first consolidated all "*.csv" files into one directory as $sub-n_label_shapes.csv, then submitted them to the python code consolidateShapes.ipynb to further consolidate measures of interest (area, cortical thickness (mean), travel depth (mean), mean curvature (mean).
+As the surface-based measures we analyzed were originally output as 31 (cortical area) x 100 (surface-based measure) spreadsheets, in relatively distant subdirectories, we first consolidated all *.csv files into one directory as $sub-n_label_shapes.csv, then submitted them to the python code consolidateShapes.ipynb to further consolidate measures of interest (area, cortical thickness (mean), travel depth (mean), mean curvature (mean).
 
-The following outline details subsequent analysis steps:
+For statistical analyses, the following code was used:
+
+    .
+    ├── anthroSemiPart.m                                        <-- Matlab function for semi-partial correlations
+    ├── anthroMeds.R                                            <-- R script for mediation analyses. Requires input of *.csv file of measures
+
+For visualizations, the following code was used:
+
+    .
+    ├── anthroMeds.R                                            <-- R script for rendering brain maps of areas significant in semi-partial correlation analyses
+    ├── anthroMeds.R                                            <-- R script for rendering brain maps of areas significant in the mediation analyses
+
+
+For questions, please contact theodore_turesky(at)gse.harvard.edu
+
+
+
 
