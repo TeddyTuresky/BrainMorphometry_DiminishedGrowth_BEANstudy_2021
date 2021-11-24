@@ -6,7 +6,7 @@ This repository houses code (or links to code) used for the following study:
 
 The dataset that underwent the processing/analysis pipeline described below is availabe here: https://openneuro.org/datasets/ds003862/versions/1.0.2.
 
-All code was implemented on MacOSX and customized to the input for this particular study, but can be adapted be replacing pertinent paths, filenames, etc.
+All code was implemented on MacOSX and customized to the input for this particular study, but can by adapted be replacing pertinent paths, filenames, etc.
 
 Raw images were first converted from dicom to nifti format, then inspected for artifacts. Analyses of remaining images (available in BIDS format here: insert link) relied predominantly on Mindboggle software (Klein et al., 2017), which was run in a Docker container according to the "Run one command" instructions here: https://mindboggle.info/. 
 
