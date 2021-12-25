@@ -4,7 +4,7 @@ This repository houses code (or links to code) used for the following study:
 
 ##### *Ted K. Turesky, Talat Shama, Shahria Hafiz Kakon, Rashidul Haque, Nazrul Islam, Amala Someshwar, Borjan Gagoski, William A. Petri, Charles A. Nelson, Nadine Gaab (2021) Brain Morphometry and Diminished Physical Growth in Bangladeshi Children Growing up in Extreme Poverty: a Longitudinal Study, Developmental Cognitive Neuroscience, 101029: doi.org/10.1016/j.dcn.2021.101029*
 
-The dataset that underwent the processing/analysis pipeline described below is availabe here: https://openneuro.org/datasets/ds003862/versions/1.0.2.
+The dataset that underwent the processing/analysis pipeline described below is availabe here: https://openneuro.org/datasets/ds003877/versions/1.0.1.
 
 All code was implemented on MacOSX and customized to the input for this particular study, but can by adapted be replacing pertinent paths, filenames, etc.
 
