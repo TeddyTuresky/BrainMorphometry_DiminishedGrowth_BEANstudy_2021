@@ -32,8 +32,8 @@ For statistical analyses, the following code was used:
 For visualizations, the following code was used:
 
     .
-    ├── anthroMeds.R                                            <-- R script for rendering brain maps of areas significant in semi-partial correlation analyses
-    ├── anthroMeds.R                                            <-- R script for rendering brain maps of areas significant in the mediation analyses
+    ├── anthroPlottingRegionsSemiPart.R                         <-- R script for rendering brain maps of areas significant in semi-partial correlation analyses
+    ├── anthroPlottingRegionsMeds.R                             <-- R script for rendering brain maps of areas significant in the mediation analyses
 
 
 For questions, please contact theodore_turesky(at)gse.harvard.edu
