@@ -10,7 +10,7 @@ All code was implemented on MacOSX and customized to the input for this particul
 
 Raw images were first converted from dicom to nifti format, then inspected for artifacts. Analyses of remaining images (available in BIDS format here: insert link) relied predominantly on Mindboggle software (Klein et al., 2017), which was run in a Docker container according to the "Run one command" instructions here: https://mindboggle.info/. 
 
-Following outputs (from subdirectories of mindboggle123_output > mindboggled > $sub-n) were analyzed:
+The following outputs (from subdirectories of mindboggle123_output > mindboggled > $sub-n) were analyzed:
 
     .
     ├── freesurfer_wmparc_labels_in_hybrid_graywhite.nii.gz      <-- volumes generated with ANTS and FreeSurfer using FreeSurfer labels 
