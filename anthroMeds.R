@@ -47,7 +47,7 @@ print(model.M.beta)
 print(model.Y.beta)
 
 # mediation model
-results <- mediate(model.M, model.Y, treat=ind1, mediator=med1, covariates=cov, boot=TRUE, sims=100)
+results <- mediate(model.M, model.Y, treat=ind1, mediator=med1, covariates=cov, boot=TRUE, sims=10000)
 
 # consolidate results
 est[i,] <- results$n0
